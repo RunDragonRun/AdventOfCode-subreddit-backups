@@ -1,0 +1,18 @@
+Flair Options
+-------------
+[x] enable user flair in this subreddit
+[ ] allow users to assign their own flair
+[x] allow submitters to assign their own link flair
+
+
+User Flair Position
+-------------------
+[ ] left
+[x] right
+
+
+Link Flair Position
+-------------------
+[ ] none
+[x] left
+[ ] right

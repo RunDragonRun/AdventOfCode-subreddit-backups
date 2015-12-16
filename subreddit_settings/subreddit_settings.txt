@@ -1,0 +1,53 @@
+Language
+--------
+English [en]
+
+
+Type
+----
+[x] public
+[ ] restricted
+[ ] private
+[ ] gold only
+
+
+Content Options
+---------------
+[x] any
+[ ] links only
+[ ] text posts only
+Custom label for submit link button: (blank)
+Custom label for submit text post button: (blank)
+
+
+Wiki
+----
+[x] disabled
+[ ] mod editing
+[ ] anyone
+
+
+Spam Filter Strength
+--------------------
+Links:      high
+Self-posts: high
+Comments:   low
+
+
+Other Options
+-------------
+[ ] viewers must be over eighteen years old
+[x] allow this subreddit to be included /r/all as well as the default and trending lists
+[x] show thumbnail images of content
+[ ] exclude posts by site-wide banned users from modqueue/unmoderated
+[ ] make the traffic stats page available to everyone
+[x] collapse deleted and removed comments
+
+Suggested comment sort: none
+Minutes to hide comment scores: 0
+
+
+Look and Feel
+-------------
+Header mouseover text: (blank)
+Header image: see Snoo file for 100px

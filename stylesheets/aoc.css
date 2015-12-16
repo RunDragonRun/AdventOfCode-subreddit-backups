@@ -1,0 +1,345 @@
+/* ************* */
+/* Snoo + header */
+/* ************* */
+#header {
+    background-color: #0F0F23;
+}
+
+#header-img-a {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 0 10px 0 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #CCC;
+}
+
+#header-img {
+}
+
+.pagename {
+    position: absolute;
+    top: 25px;
+    font-family: monospace;
+    color: #CCC;
+    font-weight: normal;
+}
+
+.pagename a {
+    font-size: 50px;
+    color: #0C0;
+    text-shadow: 0px 0px 2px rgba(0, 204, 0, 1),
+                 0px 0px 5px rgba(0, 204, 0, 1);
+    letter-spacing: 5px;
+}
+
+/* header tabs */
+#header-bottom-left { position: relative; }
+#header-bottom-left .tabmenu {
+    position: absolute;
+    left: 100;
+    bottom: 0;
+}
+
+.tabmenu #viewImagesButton,
+.tabmenu li a[href$="/controversial/"],
+.tabmenu li a[href$="/wiki/"],
+.tabmenu li a[href$="/ads/"] {
+    display: none;
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ******************************************* */
+/* change "subscribers" and "x users here now" */
+/* ******************************************* */
+.subscribers .word,
+.users-online .word {
+    display: none;
+}
+
+.subscribers .number::after {
+    content: " subscribed puzzle solvers";
+}
+
+.users-online .number::after {
+    content: " coders furiously typing right now";
+}
+
+/* ********************** */
+/* hide subreddit founder */
+/* ********************** */
+.titlebox .bottom {
+    display: none;
+}
+
+/* ********** */
+/* link flair */
+/* ********** */
+
+/* sidebar link flair styling */
+.titlebox .md h6 {
+  font-size: smaller;
+  text-decoration: none;
+}
+
+.titlebox .md h6 + ul li {
+  display: inline-block !important;
+  text-decoration: none;
+  margin: 0 0 0.5em 0;
+}
+
+.titlebox .md h6 + ul li a {
+  border: 1px solid;
+  padding: 0 0.25em;
+}
+
+/* actual link flairs */
+.linkflair-flair-dearFSMwhydoIdothistomyself .linkflairlabel,
+.titlebox .md [href*="search?q=flair:upping"],
+.submit-page .submit_text .md p:nth-of-type(8) code
+{
+  background: url(%%cautionstripes%%);
+  border-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: -2px 0 0 #000,
+                2px 0 0 #000,
+                0 -2px 0 #000,
+                0 2px 0 #000,
+               -2px -2px 0 #000,
+                2px -2px 0 #000,
+               -2px 2px 0 #000,
+                2px 2px 0 #000;
+  padding: 0 3px;
+}
+
+/* Help */
+.linkflair-flair-help .linkflairlabel,
+.titlebox .md [href*="search?q=flair:help"],
+.submit-page .submit_text .md p:nth-of-type(2) code {
+  background-color: #ffffcc;
+  border-color: #aaaa66;
+  color: #999900;
+}
+
+/* Spoilers */
+.linkflair-flair-spoilers .linkflairlabel,
+.titlebox .md [href*="search?q=flair:spoilers"],
+.submit-page .submit_text .md p:nth-of-type(3) code {
+  background-color: #ccffcc;
+  border-color: #339933;
+  color: #009900;
+}
+
+/* Visualization */
+.linkflair-flair-visualization .linkflairlabel,
+.titlebox .md [href*="search?q=flair:visualization"],
+.submit-page .submit_text .md p:nth-of-type(4) code {
+  background-color: #eeccff;
+  border-color: #aa66ff;
+  color: #550099;
+}
+
+/* Repo */
+.linkflair-flair-repo .linkflairlabel,
+.titlebox .md [href*="search?q=flair:repo"],
+.submit-page .submit_text .md p:nth-of-type(5) code {
+  background-color: #ccccff;
+  border-color: #9999ff;
+  color: #000099;
+}
+
+/* Tutorial */
+.linkflair-flair-tutorial .linkflairlabel,
+.side .md [href*="search?q=flair:tutorial"],
+.submit-page .submit_text .md p:nth-of-type(6) code {
+  background-color: #ffeecc;
+  border-color: #ffaa66;
+  color: #995500;
+}
+
+/* Live */
+.linkflair-flair-live .linkflairlabel,
+.titlebox .md [href*="search?q=flair:live"],
+.submit-page .submit_text .md p:nth-of-type(7) code {
+  background-color: #ffcccc;
+  border-color: #ff9999;
+  color: #990000;
+}
+
+/* Solution Megathread */
+.linkflair-flair-solutionmegathread .linkflairlabel,
+.titlebox .md [href*="search?q=flair:solution"],
+.submit-page .submit_text .md p:nth-of-type(10) code {
+  background-color: #000000;
+  border-color: #999999;
+  color: #ffffff;
+  max-width: 20em;
+}
+
+/* Spoilers in Title */
+.linkflair-flair-titlespoiler .linkflairlabel,
+.titlebox .md [href*="search?q=flair:spoiler"],
+.submit-page .submit_text .md p:nth-of-type(9) code {
+  background-color: #ccffcc;
+  border-color: #339933;
+  color: #009900;
+  max-width: 20em;
+}
+
+    .linkflair-flair-titlespoiler .linkflairlabel + a:link,
+    .linkflair-flair-titlespoiler .linkflairlabel + a:visited {
+        color: black;
+        background-color: black;
+        padding: 0 0.25em 0 0.25em;
+    }
+
+    .linkflair-flair-titlespoiler .linkflairlabel + a:hover {
+        color: white;
+        background-color: black;
+    }
+
+/* ********************* */
+/* sidebar global styles */
+/* ********************* */
+.titlebox .md ul {
+    padding-left: 0;
+}
+
+.titlebox .md ul li {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* ************************ */
+/* sidebar donate "buttons" */
+/* ************************ */
+.titlebox h4 a {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: #5B92FA;
+    border: none;
+    color: #FFF!important;
+    text-align: center;
+    text-shadow: 0px 1px 0px #5787E1;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial,sans-serif;
+    line-height: 37px;
+    height: 36px;
+    transition: all 0.2s ease;
+}
+
+    .titlebox h4 a:hover {  
+        background-color: #80ACFF;  
+        text-decoration: none;  
+    }
+
+a[href="#s"],
+.md p > a[href="#s"] {
+	text-decoration: none !important;
+	cursor: default;
+	background: #000;
+	color: #fff !important;
+	display: inline-block;
+}
+a[href="#s"]::after,
+.md p > a[href="#s"]::after {
+	content: attr(title);
+	color: #000;
+	padding: 0 0.5em;
+	visibility: visible;
+}
+a[href="#s"]:hover,
+.md p > a[href="#s"]:hover {
+	color: #fff !important;
+}
+a[href="#s"]:hover::after,
+a[href="#s"]:active::after,
+.md p > a[href="#s"]:hover::after,
+.md p > a[href="#s"]:active::after {
+	color: #fff;
+}
+
+/* *********************** */
+/* sidebar Advent calendar */
+/* *********************** */
+.titlebox .md h2 {
+    font-size: small;
+    font-weight: bold;
+    line-height: 200%;
+    text-align: center;
+    margin-bottom: 0;
+    border: 1px solid #E5E3DA;
+    border-bottom: 0;
+}
+
+.titlebox .md table {
+    width: 100%;
+    margin-top: 0;
+}
+
+/* we're painting the roses red */
+.titlebox .md table td {
+    color: white;
+    background-color: #941F1F;
+}
+
+/* darken the days that aren't in this month */
+.titlebox .md tr:first-child td:first-child,
+.titlebox .md tr:first-child td:nth-child(2),
+.titlebox .md tr:nth-child(5) td:nth-child(6),
+.titlebox .md tr:nth-child(5) td:nth-child(7)
+{
+    background-color: #E5E3DA;
+}
+
+/* reduce focus on days that are outside the Advent */
+.titlebox .md tr:nth-child(4) td:nth-child(7),
+.titlebox .md tr:nth-child(5) td {
+    color: #E5E3DA;
+    background-color: white;
+}
+
+/* fix the link styles so it's not blue and make it more obvious that it's a link */
+.titlebox .md tr td a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* special style for the 25th */
+.titlebox .md tr:nth-child(4) td:nth-child(6) {
+    color: white;
+    text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    background: repeating-linear-gradient(
+                   -55deg,
+                   #3C8D0D,
+                   #3C8D0D 5px,
+                   #941F1F 5px,
+                   #941F1F 10px
+    );
+}
+
+/* revealed days are green */
+.titlebox .md tr:nth-child(1) td,
+.titlebox .md tr:nth-child(2) td,
+.titlebox .md tr:nth-child(3) td:first-child,
+.titlebox .md tr:nth-child(3) td:nth-child(2),
+.titlebox .md tr:nth-child(3) td:nth-child(3),
+.titlebox .md tr:nth-child(3) td:nth-child(4)
+/*
+.titlebox .md tr:nth-child(3) td:nth-child(5),
+.titlebox .md tr:nth-child(3) td:nth-child(6)
+*/
+{
+    background-color: #3C8D0D;
+}

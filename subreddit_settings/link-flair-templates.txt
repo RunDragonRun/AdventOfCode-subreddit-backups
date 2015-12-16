@@ -1,0 +1,11 @@
+Flair Text             CSS Class
+--------------------   ------------------------------------
+Spoilers               flair-spoilers
+Spoilers in Title      flair-titlespoiler
+Visualization          flair-visualization
+Help                   flair-help
+Repo                   flair-repo
+Upping the Ante        flair-dearFSMwhydoIdothistomyself
+Tutorial               flair-tutorial
+Live                   flair-live
+SOLUTION MEGATHREAD    flair-solutionmegathread

@@ -1,0 +1,3 @@
+Username          Flair Text       CSS Class
+--------------    -------------    --------------
+topaz2078         (AoC creator)    flair-aoccreator
